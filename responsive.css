@@ -1,0 +1,271 @@
+/* 
+------------------------
+media query for mobile
+------------------------
+*/
+
+@media only screen and (max-width: 360px)  {
+  * {
+    margin: 0;
+    padding: 0;
+    max-width: 360px;
+    /* overflow-x:hidden; */
+  }
+  section.main-banner {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  nav ul li a {
+    display: none;
+  }
+  .camera {
+    width: 270px;
+    margin-left: 0px;
+  }
+  .banner-txt {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  h1.banner-title {
+    font-size: 20px;
+  }
+  .banner-subtitle {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 1rem;
+    width: 300px;
+  }
+  .banner-btn {
+    background: #e02c6d;
+    width: 150px;
+    border-radius: 41px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .ecommerce {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 0px;
+    margin-right: 0px;
+    position: relative;
+    top: -110px;
+    margin-left: 20px;
+  }
+  hr.first-hr {
+    display: none;
+  }
+  hr.second-hr {
+    display: none;
+  }
+  .client img {
+    width: 50px;
+    margin-top: 10px;
+  }
+  h2.popular-heading {
+    font-size: 20px;
+    position: relative;
+    top: -170px;
+  }
+  .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card {
+    width: 300px;
+    box-shadow: 0px 0px 10px rgb(126 124 124 / 30%);
+    margin-bottom: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    left: -20px;
+  }
+  section.feature-products {
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 300px;
+  }
+  section.collections {
+    position: relative;
+    top: -140px;
+    left: -50px;
+  }
+  h2.popular-heading {
+    position: relative;
+    top: 10px;
+  }
+  section.feature-products {
+    position: relative;
+    top: -181px;
+    left: -40px;
+  }
+  h3.feature-heading {
+    font-size: 20px;
+  }
+  p.feature-dec {
+    font-size: 12px;
+    width: 300px;
+  }
+  .btn {
+    width: 120px;
+    height: 35px;
+    background: #e02c6d;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    color: #ffff;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 12px;
+  }
+  img.feature-product-img {
+    position: relative;
+    top: 30px;
+  }
+  img.feature-product-img {
+    width: 300px;
+    position: relative;
+    top: 30px;
+  }
+  section.feature-products {
+    position: relative;
+    left: -10px;
+  }
+  h3.card-title {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  h4.price {
+    font-family: inter;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  h4.footer-heading {
+    font-size: 20px;
+  }
+  p.footer-desc {
+    font-size: 12px;
+  }
+  .icon span {
+    width: 16px;
+    height: 16px;
+  }
+  .feature-text {
+    width: 150px;
+  }
+  .feature-text {
+    position: relative;
+    /* left: -100px; */
+    width: 350px;
+  }
+}
+
+/* 
+-------------------------
+responsive for tablet
+-------------------------
+*/
+
+@media only screen and (min-width: 500px) and (max-width:900px){
+  * {
+    margin: 0;
+    padding: 0;
+    max-width: 768px;
+    /* overflow-x:hidden; */
+  }
+  section.main-banner {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  nav ul li a {
+    display: none;
+  }
+  .logo h3 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 2.5rem;
+    /* margin-left: 120px; */
+  }
+  .logo {
+    position: relative;
+    left: 10rem;
+  }
+  h1.banner-title {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .banner-subtitle {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .banner-btn {
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  hr.first-hr,
+  hr.second-hr {
+    display: none;
+  }
+  .ecommerce {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+    top: -70px;
+  }
+  .client {
+    width: 55px;
+    margin-bottom: 5px;
+  }
+  h2.popular-heading {
+    font-size: 1.8rem;
+    position: relative;
+    top: -100px;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    left: -70px;
+    top: -70px;
+  }
+  .card {
+    margin: 10px;
+  }
+  .see-more-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+  }
+  section.feature-products {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  img.feature-product-img {
+    position: relative;
+    top: 30px;
+    left: -50px;
+  }
+}
